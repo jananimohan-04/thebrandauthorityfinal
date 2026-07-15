@@ -1,11 +1,12 @@
 import AnimatedSection from "./AnimatedSection";
 
 const steps = [
-  { num: "01", title: "Confidential Consultation", desc: "We understand your goals, audience, and vision in complete privacy." },
-  { num: "02", title: "Brand Analysis", desc: "Deep analysis of your current public image and digital footprint." },
-  { num: "03", title: "Strategy Creation", desc: "A tailored roadmap for positioning, content, and growth." },
-  { num: "04", title: "Content & PR Execution", desc: "Our team creates, publishes, and manages all your digital touchpoints." },
-  { num: "05", title: "Growth & Reputation Management", desc: "Ongoing monitoring, optimization, and reputation protection." },
+  { num: "01", title: "Understand You", desc: "We start by understanding you, your business, your experience, and your goals." },
+  { num: "02", title: "Discover Your Story", desc: "We speak with you regularly to discover your stories, ideas, opinions, and experiences." },
+  { num: "03", title: "Build Your Brand Strategy", desc: "We define your positioning, content themes, audience, and personal brand direction." },
+  { num: "04", title: "Create Your Content", desc: "Our team turns your thoughts and experience into high-quality content written in your voice." },
+  { num: "05", title: "Build Your Visibility", desc: "We consistently build your presence across LinkedIn and relevant social platforms." },
+  { num: "06", title: "Grow Your Business Brand", desc: "As your personal brand grows, more people discover, trust, and connect with the business behind you." },
 ];
 
 const ProcessSection = () => (
@@ -13,10 +14,10 @@ const ProcessSection = () => (
     <div className="max-w-4xl mx-auto">
       <AnimatedSection>
         <p className="text-primary font-body text-sm tracking-[0.25em] uppercase mb-4 text-center">
-          Our Process
+          How It Works
         </p>
         <h2 className="font-display text-3xl md:text-5xl font-bold text-center mb-16">
-          How We <span className="text-gradient-gold">Work</span>
+          We Learn. We Listen. <span className="text-gradient-gold">We Build Your Brand.</span>
         </h2>
       </AnimatedSection>
 

@@ -15,7 +15,7 @@ const ContactSection = () => (
 
       <div className="grid md:grid-cols-3 gap-8">
         {[
-          { icon: MapPin, label: "Location", value: "105/51 RAHMAT MANZIL, 1 ST FLOOR, ARMENIAN STREET, GEORGE TOWN, CHENNAI, TAMIL NADU 600001" },
+          { icon: MapPin, label: "Location", value: 'Workvilla 110/1 "Arcade centre" Mahatma gandhi road nungambakkam chennai 600034.' },
           { icon: Mail, label: "Email", value: "contact@thebrandauthority.agency" },
           { icon: Phone, label: "Phone", value: "+91 824-8152139" },
         ].map((item, i) => (

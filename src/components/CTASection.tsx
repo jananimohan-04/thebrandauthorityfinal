@@ -6,17 +6,23 @@ const CTASection = () => (
     <div className="absolute inset-0 glow-gold opacity-30" />
     <div className="relative z-10 max-w-3xl mx-auto text-center">
       <AnimatedSection>
-        <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
-          Your Public Image{" "}
-          <span className="text-gradient-gold">Defines Your Future.</span>
-        </h2>
-        <p className="text-muted-foreground text-lg mb-10">
-          Let professionals manage and grow your brand. Book a confidential
-          consultation today.
+        <p className="text-primary font-body text-sm tracking-[0.25em] uppercase mb-4">
+          YOUR BUSINESS HAS A BRAND.
         </p>
-        <Button variant="hero" size="lg" asChild>
-          <a href="#contact">Contact Us</a>
-        </Button>
+        <h2 className="font-display text-3xl md:text-5xl font-bold mb-6 uppercase">
+          Now It's Time to <span className="text-gradient-gold">Build Yours.</span>
+        </h2>
+        <p className="text-muted-foreground text-lg mb-8 max-w-xl mx-auto">
+          You spent years building your business. Let us help the world discover the person behind it.
+        </p>
+        <div className="mb-6">
+          <Button variant="hero" size="lg" asChild>
+            <a href="#contact">Build My Personal Brand</a>
+          </Button>
+        </div>
+        <p className="text-sm font-semibold tracking-[0.15em] text-muted-foreground uppercase mt-4">
+          The Brand Behind the Business.
+        </p>
       </AnimatedSection>
     </div>
   </section>

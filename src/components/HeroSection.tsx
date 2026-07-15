@@ -21,29 +21,35 @@ const HeroSection = () => (
         transition={{ duration: 0.6 }}
         className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-6"
       >
-        Public Figure Management
+        Personal Branding Agency
       </motion.p>
 
       <motion.h1
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.15 }}
-        className="font-display text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6"
+        className="font-display text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 uppercase"
       >
-        Build Influence.{" "}
-        <span className="text-gradient-gold">Shape Public Image.</span>{" "}
-        Dominate Social Media.
+        You Built the Business.{" "}
+        <span className="text-gradient-gold block mt-2">Now Build the Brand Behind It.</span>
       </motion.h1>
 
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.35 }}
-        className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 font-body"
+        className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-6 font-body"
       >
-        We help Actors, Actresses, Politicians, and Public Figures build powerful
-        personal brands through strategic social media management, PR, and
-        digital promotion.
+        We help Founders, CEOs, and Business Leaders become the visible face of their company through strategic personal branding and social media.
+      </motion.p>
+
+      <motion.p
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.45 }}
+        className="text-foreground text-lg font-semibold max-w-2xl mx-auto mb-10 font-body tracking-wider"
+      >
+        Your Experience. Your Voice. Your Brand.
       </motion.p>
 
       <motion.div
@@ -53,10 +59,7 @@ const HeroSection = () => (
         className="flex flex-col sm:flex-row gap-4 justify-center"
       >
         <Button variant="hero" size="lg" asChild>
-          <a href="#contact">Book a Confidential Consultation</a>
-        </Button>
-        <Button variant="heroOutline" size="lg" asChild>
-          <a href="#services">Build Your Personal Brand Today</a>
+          <a href="#contact">Build My Personal Brand</a>
         </Button>
       </motion.div>
     </div>
